@@ -1,0 +1,8 @@
+set_global_assignment -name VHDL_FILE rtl/gba_cpu.vhd
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/pockstat_top.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/sdram.sv
+
+set_global_assignment -name QIP_FILE sram.qip
+
+set_global_assignment -name SDC_FILE PocketStation.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE PocketStation.sv
